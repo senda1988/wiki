@@ -1,6 +1,6 @@
 # Ordnern
 
-## `Get-ChildItem (alias: ls, dir)`: Listet den Inhalt eines Ordners auf, einschließlich Dateien und Unterordner.
+### `Get-ChildItem (alias: ls, dir)`: Listet den Inhalt eines Ordners auf, einschließlich Dateien und Unterordner.
 
 **Parameter:**
 
