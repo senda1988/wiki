@@ -13,7 +13,7 @@
 
 - `Internet`: Globales Netzwerk, welches die weltweite Kommunikation ermöglicht durch den Zusammenschluss von Servern ermöglicht.
 
-![](./images/internet.png)
+![](./Bild/internet.png)
 
 ## Pfade
 
