@@ -1,7 +1,9 @@
 # PowerShell Cheat Sheet
 
 ## Grundlegende Befehle
+
 -`Get-Help`: Zeigt Hilfeinformationen zu einem Befehl an.
+
 -`Get-Command`: Zeigt alle verfügbaren PowerShell-Befehle oder Informationen zu einem bestimmten Befehl an.
 
 
