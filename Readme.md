@@ -7,13 +7,13 @@
 - `Client`: Das Benutzerendgerät
 - `Server`: ist ein Gerät, das Anfragen von Clients verarbeitet und die angeforderten Dienste bereitstellt
 
-![Client Server Model](./images/client_server_model.png)
+![Client Server Model](client_server_model.png)
 
 ## Internet
 
 - `Internet`: Globales Netzwerk, welches die weltweite Kommunikation ermöglicht durch den Zusammenschluss von Servern ermöglicht.
 
-![](./Bild/internet.png)
+![](internet.png)
 
 ## Pfade
 
