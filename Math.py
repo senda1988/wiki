@@ -10,12 +10,12 @@ print("Multiplikation: ", a * b)
 
 print("Division: ", a / b)
 
-#Durchschnitt berechnen
+# Durchschnitt berechnen
 note1 = 15
 note2 = 16
 note3 = 20
 l = [note1, note3, note3]
-s = sum(l)/3
+s = sum(l) / 3
 print("Mein Durchschnitt ist: ", s)
 
 
@@ -27,5 +27,4 @@ f = 0.621371
 km = int(input("Wie viele Kilometer möchtest du umrechnen? "))
 
 
-
-print("Umrechnung in Meilen: ",  km * f)
+print("Umrechnung in Meilen: ", km * f)
