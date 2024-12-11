@@ -1,7 +1,8 @@
 # Aufgabe 1
-# Schritte um Python-Code auszuführen
 
-## Installation von Python
+## Schritte um Python-Code auszuführen
+
+
  
  1- Installiere Python: 
  ```sudo apt install python3 python pip3```
