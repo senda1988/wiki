@@ -50,7 +50,7 @@ y= str(x)
 
 
 - **Liste (list)**: Geordnete, veränderbare Sammlung von Elementen. `
-```zahlen = [1, 2, 3, 4, 5]``
+```zahlen = [1, 2, 3, 4, 5]```
 
 - **Tupel (tuple)**: Geordnete, unveränderbare Sammlung von Elementen.
 ``` T = (10, 20)```
