@@ -27,7 +27,7 @@
 ## Software vs. Hardware vs. Betriebssystem
 
 - `Software`: Programm/Anwendungen. Man kann Software nicht anfassen
-- `Hardware`: Physische Komponenten des Computers/Server. Zum Beispiel CPU wäre eine Hardware Komponente
+- `Hardware`: Physische Komponenten des Computers/Server. Zum Beispiel CPU wäre eine Hardware Komponentels
 - `Betriebssystem bzw. OS`: Windows, Android, iOS. Schnittstelle zwischen Hardware und Software
 - `Firmware`: Software, die direkt auf der Hardware läuft, oft fest eingebrannt, z. B. in Geräten wie Routern oder Druckern.
 - `Virtualisierung`: Die Verwendung von Software, um virtuelle Versionen von Hardware-Komponenten zu erstellen, z. B. virtuelle Maschinen.
