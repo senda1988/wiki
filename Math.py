@@ -3,11 +3,8 @@ a = 7
 b = 5
 
 print("Addition: ", a + b)
-
 print("Subtraktion: ", a - b)
-
 print("Multiplikation: ", a * b)
-
 print("Division: ", a / b)
 
 # Durchschnitt berechnen
