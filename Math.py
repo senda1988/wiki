@@ -1,8 +1,7 @@
 # Einfache Mathematik
 a = 7
 b = 5
-variable = None
-print(type(variable)) 
+
 print("Addition: ", a + b)
 
 print("Subtraktion: ", a - b)
