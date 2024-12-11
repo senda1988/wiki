@@ -10,13 +10,13 @@ print("Multiplikation: ", a * b)
 
 print("Division: ", a / b)
 
-note1 = input("Meine 1er Note: ")
+note1 = 15
 
-note2 = input("Meine 2er Note: ")
+note2 = 16
 
-note3 = input("Meine 3 Note: ")
+note3 = 20
 
 
-l = [int(note1), int(note3), int(note3)]
+l = [note1, note3, note3]
 s = sum(l)/3
 print("Mein Durchschnitt ist: ", s)
