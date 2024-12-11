@@ -31,33 +31,32 @@
 ## Datentypen
 
 
-- Integer (int): Ganzzahlen.
-``` ```
+- **Integer (int)**: Ganzzahlen.
+```int ("10") ```
 
-- Float (float): Dezimalzahlen.
-``` ```
+- **Float (float)**: Dezimalzahlen.
 
-- String (str): Text.
+- **String (str)**: Text.
 
 ```
 x = 5
 y= str(x)
  ```
 
-- Boolean (bool): Wahrheitswerte (True, False).
-``` ```
+- **Boolean (bool)**: Wahrheitswerte (True, False).
 
-- None: Ein spezieller Typ für "leere" oder nicht definierte Variablen.
-``` ```
 
-- Liste (list): Geordnete, veränderbare Sammlung von Elementen. `
+- **None**: Ein spezieller Typ für "leere" oder nicht definierte Variablen.
+
+
+- **Liste (list)**: Geordnete, veränderbare Sammlung von Elementen. `
 ```zahlen = [1, 2, 3, 4, 5]``
 
-- Tupel (tuple): Geordnete, unveränderbare Sammlung von Elementen.
+- **Tupel (tuple)**: Geordnete, unveränderbare Sammlung von Elementen.
 ``` T = (10, 20)```
 
-- Set (set): Ungeordnete Sammlung von einzigartigen Elementen.
+- **Set (set)**: Ungeordnete Sammlung von einzigartigen Elementen.
 ``` S = {1, 2, 3, 4, 5}```
 
-Dictionary (dict): Sammlung von Schlüssel-Wert-Paaren.
-```person = {"name": "Senda", "anachname": "zidi"} ```
+- **Dictionary (dict)**: Sammlung von Schlüssel-Wert-Paaren.
+```person = {"name": "Senda", "nachname": "zidi"} ```
