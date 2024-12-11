@@ -1,6 +1,6 @@
 # Aufgabe 1
 
-## Schritte um Python-Code auszuführen
+## Aufgabe 1.1: Schritte um Python-Code auszuführen
 
 
  
@@ -15,7 +15,7 @@
  4- Öffne das Terminal in VS Code und führe den Code aus:
 ``` python3 datei.py```
 
-## Wichtige Befehle für Python und VS Code
+### Wichtige Befehle für Python und VS Code
 
  ```python --version ```: Überprüfe die installierte Python-Version.
 
@@ -29,7 +29,7 @@
 
 
 
-## Datentypen
+## Aufgabe 1.2: Datentypen
 
 
 - **Integer (int)**: Ganzzahlen.
