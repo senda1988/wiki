@@ -1,7 +1,8 @@
 # Einfache Mathematik
 a = 7
 b = 5
-
+variable = None
+print(type(variable)) 
 print("Addition: ", a + b)
 
 print("Subtraktion: ", a - b)
@@ -26,7 +27,6 @@ f = 0.621371
 # Den Nutzer nach der Kilometeranzahl fragen
 km = int(input("Wie viele Kilometer möchtest du umrechnen? "))
 
-# Umrechnung in Meilen
-meilen = km * f
+
 
 print("Umrechnung in Meilen: ",  km * f)
