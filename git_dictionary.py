@@ -1,14 +1,14 @@
 def git_dictionary(befehl_git):
     git_dict = {
-        "github": "ist eine Plattform für Versionskontrolle und Zusammenarbeit basierend auf Git.",
-        "pull": "um Änderungen von einem entfernten Repository herunterzuladen und sie mit dem lokalen Repository zu vereinen.",
-        "push": "die Änderungen von Ihrem lokalen Repository zu einem Remote-Repository (z. B. auf GitHub).",
-        "clone": "entferntes Repository zu kopieren und es lokal zu speichern.",
-        "commit": "Art Schnappschuss des aktuellen Zustands des Codes",
-        "main-branch": "der Hauptzweig eines Projekts. Sie repräsentiert den stabilen und produktionsreifen Code.",
-        "andere Branches": "Diese Branches dienen zur parallelen Entwicklung von Features, Behebung von Bugs oder Experimenten, ohne die Stabilität des Hauptcodes zu gefährden.",
-        "merge": "um die Änderungen eines Branches in einen anderen zu integrieren.",
-        "repository": "Ein Speicherort für Code und Dateien in Git. ",
+        "GitHub": "Eine Plattform für Versionskontrolle und Zusammenarbeit, die auf Git basiert.",
+        "pull": "Lädt Änderungen von einem entfernten Repository herunter und vereint sie mit dem lokalen Repository.",
+        "push": "Überträgt Änderungen von Ihrem lokalen Repository in ein entferntes Repository (z. B. auf GitHub).",
+        "clone": "Erstellt eine Kopie eines entfernten Repositorys und speichert sie lokal.",
+        "commit": "Ein Schnappschuss des aktuellen Zustands des Codes mit einer Beschreibung der Änderungen.",
+        "main-branch": "Der Hauptzweig eines Projekts, der den stabilen und produktionsreifen Code repräsentiert.",
+        "andere Branches": "Branches, die zur parallelen Entwicklung von Features, Bugfixes oder Experimenten dienen, ohne die Stabilität des Hauptcodes zu gefährden.",
+        "merge": "Integriert die Änderungen eines Branches in einen anderen.",
+        "repository": "Ein Speicherort für Code, Dateien und die Git-Historie.",
     }
     if befehl_git.lower() in git_dict:
         print(f"der Befehle {befehl_git} wird verwendet {git_dict[befehl_git.lower()]}")
