@@ -3,7 +3,7 @@ def git_dictionary(befehl_git):
         "github": "ist eine Plattform für Versionskontrolle und Zusammenarbeit basierend auf Git.",
         "pull": "um Änderungen von einem entfernten Repository herunterzuladen und sie mit dem lokalen Repository zu vereinen.",
         "push": "die Änderungen von Ihrem lokalen Repository zu einem Remote-Repository (z. B. auf GitHub).",
-        "clone": " um ein entferntes Repository zu kopieren und es lokal zu speichern.",
+        "clone": "entferntes Repository zu kopieren und es lokal zu speichern.",
         "commit": "Art Schnappschuss des aktuellen Zustands des Codes",
         "main-branch": "der Hauptzweig eines Projekts. Sie repräsentiert den stabilen und produktionsreifen Code.",
         "andere Branches": "Diese Branches dienen zur parallelen Entwicklung von Features, Behebung von Bugs oder Experimenten, ohne die Stabilität des Hauptcodes zu gefährden.",
