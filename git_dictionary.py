@@ -1,23 +1,24 @@
-def git_dictionary(befehle_git):
+def git_dictionary(befehl_git):
     git_dict = {
+        "github": "ist eine Plattform für Versionskontrolle und Zusammenarbeit basierend auf Git.",
         "pull": "um Änderungen von einem entfernten Repository herunterzuladen und sie mit dem lokalen Repository zu vereinen.",
-        "push": " um Änderungen aus dem lokalen Repository in ein entferntes Repository zu übertragen.",
+        "push": "die Änderungen von Ihrem lokalen Repository zu einem Remote-Repository (z. B. auf GitHub).",
         "clone": " um ein entferntes Repository zu kopieren und es lokal zu speichern.",
-        "commit": " um Änderungen im lokalen Repository zu speichern, zusammen mit einer Nachricht, die die Änderungen beschreibt.",
-        "branch": "um alle Branches im Repository aufzulisten oder einen neuen Branch zu erstellen.",
+        "commit": "Art Schnappschuss des aktuellen Zustands des Codes",
+        "main-branch": "der Hauptzweig eines Projekts. Sie repräsentiert den stabilen und produktionsreifen Code.",
+        "andere Branches": "Diese Branches dienen zur parallelen Entwicklung von Features, Behebung von Bugs oder Experimenten, ohne die Stabilität des Hauptcodes zu gefährden.",
         "merge": "um die Änderungen eines Branches in einen anderen zu integrieren.",
+        "repository": "Ein Speicherort für Code und Dateien in Git. ",
     }
-    if befehle_git.lower() in git_dict:
-        print(
-            f"der Befehle {befehle_git} wird verwendet {git_dict[befehle_git.lower()]}"
-        )
+    if befehl_git.lower() in git_dict:
+        print(f"der Befehle {befehl_git} wird verwendet {git_dict[befehl_git.lower()]}")
     else:
         print("dieser Befehle existiert nicht !!")
         neu_befehle = input(
             f"dieser Befehle existiert nicht. gib die beschreibung ein: "
         )
-        git_dict[befehle_git] = neu_befehle
-        print(f"Der befehle {befehle_git} wird verwendet, {git_dict[befehle_git]}")
+        git_dict[befehl_git] = neu_befehle
+        print(f"Der befehle {befehl_git} : {git_dict[befehl_git]}")
 
 
 befehla_input = input(" gib ein befehle ein: ").lower()
