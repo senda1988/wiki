@@ -1,6 +1,4 @@
 # Aufgabe 1
-
-
 text = input("Eingabe:")
 buchstabe = input("Buchstabe:")
 counter = 0
@@ -13,8 +11,6 @@ print(f"Der Buchstabe {buchstabe} kommt {counter}-mal vor")
 
 
 # Aufgabe 2
-
-
 sum = 0
 for _ in range(5):
     var = int(input("Gib mir ein Zahl: "))
