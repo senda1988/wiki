@@ -5,7 +5,7 @@ class Zutat:
         self.zubereitungszeit = zubereitungszeit
 
 
-class Rezept(Zutat):
+class Rezept:
 
     def __init__(self, name, beschreibung, zutatenliste):
         self.name = name
