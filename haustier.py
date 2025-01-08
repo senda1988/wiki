@@ -49,7 +49,7 @@ food = "Trockenfutter"
 print(
     f"{katze.name} hat  Trockenfutter gegessen. Die Energie ist jetzt {katze.feed(food)} %"
 )
-hours_sleep = 2
+hours_sleep = int(input("Wie viel Stunde die Katze hat geschlafen: "))
 print(
     f"{katze.name} hat  {hours_sleep} schlöft. Die Energie ist jetzt {katze.sleep(hours_sleep)} %"
 )
@@ -66,7 +66,7 @@ food = "Trockenfutter"
 print(
     f"{hund.name} hat  Trockenfutter gegessen. Die Energie ist jetzt {hund.feed(food)} %"
 )
-hours_sleep = 2
+hours_sleep = int(input("Wie viel Stunde der Hund hat geschlafen: "))
 print(
     f"{hund.name} hat  {hours_sleep} hours geschlaffen. Die Energie ist jetzt {hund.sleep(hours_sleep)} %"
 )
