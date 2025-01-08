@@ -7,15 +7,14 @@ class Haustier:
         self.energy_level = 100
 
     def get_description(self):
-        description = print(
-            f"{self.name} ist ein {self.age} Jahre alter {self.species}."
-        )
-        return description
+        return f"{self.name} ist ein {self.age} Jahre alter {self.species}."
 
     def play(self, duration):
 
         if self.energy_level > 0:
             self.energy_level = self.energy_level - (duration * 5)
+        else:
+            self.energy_level = 0
         return self.energy_level
 
     def feed(self, food):
@@ -24,6 +23,7 @@ class Haustier:
             self.energy_level += 30
         else:
             self.energy_level += 10
+
         if self.energy_level > 100:
             self.energy_level -= self.energy_level - 100
         return self.energy_level
