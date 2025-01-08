@@ -10,10 +10,8 @@ class Haustier:
         return f"{self.name} ist ein {self.age} Jahre alter {self.species}."
 
     def play(self, duration):
-
-        if self.energy_level > 0:
-            self.energy_level = self.energy_level - (duration * 5)
-        else:
+        self.energy_level = self.energy_level - (duration * 5)
+        if self.energy_level < 0:
             self.energy_level = 0
         return self.energy_level
 
