@@ -117,7 +117,7 @@ Ein PAN ist ein kleines Netzwerk, das Geräte im nahen Umkreis einer Person mite
 
 - Günstig und einfach einzurichten.
 
--Weniger Kabel nötig.
+- Weniger Kabel nötig.
 
 **Nachteile**:
 
