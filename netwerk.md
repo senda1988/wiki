@@ -49,7 +49,7 @@ Begrenzte Reichweite, funktioniert nur in einem Geb√§ude oder eng verbundenen R√
 
 ## MAN (Metropolitan Area Network)
 
-![man](MAN.png)
+![man](man2.png)
 
 **Beschreibung:**
 
